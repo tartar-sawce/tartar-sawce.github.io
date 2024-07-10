@@ -1,0 +1,100 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin:0;
+    padding:0;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+html  {
+    background: rgba(60,20,10,0.0125);
+    color: #333;
+    font: 18px/1.325 "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    border-top: 10px solid rgba(60,20,10,1);
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom:0;
+}
+
+h1 + p,
+h1 + ul,
+h2 + p,
+h2 + ul {
+    margin-top:0;
+}
+
+
+header {
+    padding: 3rem 0 0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin:0;
+}
+header p {
+    margin:0;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+section {
+    margin-top: 2rem;
+    clear:both;
+}
+
+section:before {
+    content: "···";
+    text-align: center;
+    display:block;
+    font-size: 100px;
+    color: rgba(170, 90, 0, 0.75);
+}
+
+#projects a {
+    display: block;
+    width: 48%;
+    float:left;
+    text-decoration:none;
+    color: #333;
+    padding: 1rem;
+}
+
+#projects a:hover,
+#projects a:focus,
+#projects a:active {
+    background: rgba(0,0,0,0.125);
+}
+
+#projects a + a {
+    float: right;
+}
