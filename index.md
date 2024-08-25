@@ -25,27 +25,21 @@ archival/collections work.
 
 ## Selected Projects
 
-<a href="https://github.com/jeremyboggs/5e" id="five-e">
 
-![](/images/speaking-in-code.jpg)
+[![](/images/five-e.jpg)](https://github.com/jeremyboggs/5e)
 
 ### 5e Jekyll Theme
 
 A modest theme for the Jekyll static site builder that emulates the aesthetic of
 the 5th Edition of Dungeons and Dragons.
 
-</a>
-
-<a href="https://codespeak.scholarslab.org" id="speaking-in-code">
-
-![](/images/speaking-in-code.jpg)
+[![](/images/speaking-in-code.jpg)](https://codespeak.scholarslab.org)
 
 ### Speaking in Code
 
 Branding, web design + development, and organizational
 planning for Speaking in Code, a two-day symposium to give voice
 to the tacit intellectual work of DH designers and developers.
-</a>
 
 ## Vita
 ### Experience
