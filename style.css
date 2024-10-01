@@ -1,0 +1,83 @@
+:root {
+    --defaultColor: #404040;
+    --scaler: 50vw;
+    --highlightColor: hsl(40, 60%, 50%);
+    --backgroundColor:hsl(50, 25%, 95%);
+}
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: var(--backgroundColor);
+    color: var(--defaultColor);
+    font: 20px "Zen Kaku Gothic New", sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/*
+
+Clickable links, or anchors, have five separate pseudoclasses to style. It's
+useful to make these distinct for usability and accessibility.
+
+:link    - The default style
+:visited - Styles applied if the value of the `href` attribute is present in
+           a users browse history.
+:hover   - Applied when a reader moves the mouse cursor over the link.
+:focus   - Applied when a reader uses keyboard navigation (e.g. tab) to select
+           the link.
+:active  - Applied once a user clicks or activates a link.
+
+*/
+a:link,
+a:visited {
+    color: var(--highlightColor);
+    text-decoration:none;
+}
+a:hover,
+a:focus {
+    color: var(--defaultColor);
+}
+a:active {
+
+}
+
+a {
+    margin:0;
+}
+
+a+a:before {
+    content: " · ";
+    color: var(--defaultColor);
+    display:inline;
+}
+
+#banner {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+#banner h1,
+#banner nav {
+    font-weight: 500;
+    font-size: 1rem;
+    margin:0;
+}
+
+main:before {
+    display:block;
+    background: #e6b31a;
+    width: 3rem;
+    height: 0.125rem;
+    margin: 4rem auto;
+    content: '';
+}
