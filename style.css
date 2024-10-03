@@ -16,7 +16,8 @@ html,body {
 body {
     background: var(--backgroundColor);
     color: var(--defaultColor);
-    font: 20px "Zen Kaku Gothic New", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
     max-width: 700px;
     margin: 0 auto;
 }
