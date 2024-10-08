@@ -16,7 +16,7 @@ html,body {
 
 body {
     background: var(--backgroundColor);
-    color: hsl(131, 82%, 24%);
+    color: hsl(124, 39%, 25%);
     font-family: "Raleway", sans-serif;
     font-size: 19px;
     max-width: 700px;
@@ -45,4 +45,9 @@ main:before {
     height: .125rem;
     margin: 4rem auto;
     content: '';
+}
+
+
+p {
+    text-align: center;
 }
