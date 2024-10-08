@@ -1,0 +1,48 @@
+:root {
+    --defaultColor: #404040;
+    --scaler: 50vw;
+    --highlightColor: hsl(21, 74%, 39%);
+    --backgroundColor:hsl(50, 25%, 95%);
+}
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    
+}
+
+body {
+    background: var(--backgroundColor);
+    color: hsl(124, 39%, 25%);
+    font-family: "Raleway", sans-serif;
+    font-size: 19px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#banner {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: softwrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+#banner h1,
+#banner nav {
+    font-weight: 500;
+    font-size: 1rem;
+    margin:0;
+}
+
+main:before {
+    display:block;
+    background: #e6b31a;
+    width: 10rem;
+    height: .125rem;
+    margin: 4rem auto;
+    content: '';
+}
