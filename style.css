@@ -87,3 +87,7 @@ main:before {
 img {
     float:left; margin-right: 40px; width:300px;
 }
+
+p.intro {
+    font-family:"Ysabeau Infant", sans-serif;
+}
