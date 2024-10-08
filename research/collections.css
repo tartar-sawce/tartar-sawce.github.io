@@ -17,7 +17,7 @@ html,body {
 body {
     background: var(--backgroundColor);
     color:  hsl(124, 39%, 25%);
-    font-family: "Raleway", sans-serif;
+    font-family: "Ysabeau Infant", sans-serif;
     font-size: 19px;
     max-width: 700px;
     margin: 0 auto;
@@ -50,3 +50,9 @@ h2 {
     font-family: "Ysabeau Infant", sans-serif;
     color: hsl(124, 39%, 25%);
 }
+
+img {
+   width: 70px;
+}
+
+img#roza {float: left; width:100px; margin-right: 4rem;}
