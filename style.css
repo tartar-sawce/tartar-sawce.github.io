@@ -83,3 +83,7 @@ main:before {
     margin: 4rem auto;
     content: '';
 }
+
+img {
+    float:left; margin-right: 40px; width:300px;
+}
